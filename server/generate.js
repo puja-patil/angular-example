@@ -2,7 +2,7 @@ var faker = require("faker");
 var database = { products: [] };
 for (var i = 0; i < 300; i++) {
   database.products.push({
-    id: 1,
+    id: i,
     name: faker.commerce.productName(),
     description: faker.lorem.sentences(),
     price: faker.commerce.price(),
